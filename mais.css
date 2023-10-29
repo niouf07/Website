@@ -18,7 +18,7 @@ body {
 .form {
     width: 500px;
     padding: 6px;
-    color: white;
+    color: whitesmoke;
 }
 
 input, textarea {
@@ -46,4 +46,29 @@ h2 {
 
 p{
     font-size: 150%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    height: auto;
+    background-color: rgb(14, 10, 48);
+    font-size: 18px;
+    line-height: 28.8px;
+    overflow: hidden;
+    width: 100%;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(14, 10, 48);
+    z-index: -1;
+}
+
+footer .rights {
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 30px;
+    padding-top: 20px;
 }
